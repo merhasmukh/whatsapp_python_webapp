@@ -8,6 +8,8 @@ Phase:1
 Phase:2
 - Add multiple numbers 
 
+# How to run this project:
+
 ## Clone this repository on your local system
 - git clone https://github.com/mhgn/whatsapp_python_webapp.git
 
