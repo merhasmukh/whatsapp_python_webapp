@@ -9,8 +9,7 @@ def d_set():
         print(today_date)
         print(type(today_date))
 
-        d = st.date_input(
-            "select the date of the mesaage")
+        d = st.date_input("select the date of the mesaage")
         
         st.write('Your Date is:', d)
 
