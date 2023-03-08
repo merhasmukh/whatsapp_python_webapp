@@ -9,11 +9,13 @@ from src import exception
 
 # print(data.columns)
 
-def send_sms(mob_number,text):
+def send_sms(mob_number,text,hr,mn):
     try:
+        print(mob_number)
+        print(type(mob_number))
         pywhatkit.sendwhatmsg(mob_number,
                       text,
-                      11,45)
+                      int(hr),int(mn))
     except Exception as e:
         raise exception.CustomException(str(e))
 

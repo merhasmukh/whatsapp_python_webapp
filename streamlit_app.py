@@ -9,10 +9,13 @@ def main():
     try:
         number = st.text_input('Insert your mobile number')
         msg = st.text_input('enter your message')
+        h=st.text_input("Enter hour(use 24-hour format)")
+        m=st.text_input("Enter minutes")
 
-        global mob_number
-        mob_number=[]
-        # number_status=0
+
+      
+        mob_number=''
+        number_status=[]
         if st.button("Submit"):
             # logging.info("Button clicked")
             if number != None and len(number)==10:
@@ -22,7 +25,7 @@ def main():
                     else:
                         return st.error("enter only numeric numbers")
                 
-                mob_number.append("+91"+number)
+                mob_number="+91"+number
 
             
             
@@ -39,7 +42,7 @@ def main():
         # st.write('Your Date is:', d)
             # st.write("your date",your_date)
             
-        send_message.send_sms(mob_number,msg)
+        send_message.send_sms(mob_number,msg,h,m)
     except Exception as e:
         st.error(str(e))
 
