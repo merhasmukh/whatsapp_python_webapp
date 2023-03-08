@@ -8,6 +8,14 @@ Phase:1
 
 ![alt text](./images/phase-1.png)
 
+- Example:
+
+- we want to "hi" message to 1234567891 at 15:2 (03:02 PM)
+    - 1234567891 (don't use +91)
+    - hi
+    - 15
+    - 2
+    
 Phase:2
 - Add multiple numbers 
 
