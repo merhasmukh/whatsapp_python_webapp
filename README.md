@@ -3,12 +3,10 @@
 # Project Requirements:
 
 - Phase:1
-- 
-- - Create a streamlit web application which takes number and msg as an input and a send button which automatically send your message to your contact number
+- Create a streamlit web application which takes number and msg as an input and a send button which automatically send your message to your contact number
 
 Phase:2
-- 
-- - Add multiple numbers 
+- Add multiple numbers 
 
 ## Clone this repository on your local system
 - git clone https://github.com/mhgn/whatsapp_python_webapp.git
