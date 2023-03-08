@@ -5,6 +5,7 @@
 Phase:1
 - Create a streamlit web application which takes number,msg ,hour and minute as an input and a send button which automatically send your message to your contact number using web.whatsapp 
 - https://github.com/mhgn/whatsapp_python_webapp/releases/tag/phase-1
+
 ![alt text](./images/phase-1.png)
 
 Phase:2
@@ -25,4 +26,4 @@ Phase:2
 - pip install -r requirements.txt
 
 ## Run the App
-- streamlit run  streamlit_app.py
+- streamlit run streamlit_app.py
